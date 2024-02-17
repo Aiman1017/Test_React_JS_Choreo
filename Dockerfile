@@ -28,7 +28,5 @@ RUN rm /etc/nginx/conf.d/default.conf
 COPY nginx/nginx.conf /etc/nginx/conf.d
 # Expose port 80 for HTTP Traffic 
 EXPOSE 80
-
-USER 10001
 # start the nginx web server
 CMD ["nginx", "-g", "daemon off;"]
