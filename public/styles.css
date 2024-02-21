@@ -1,0 +1,104 @@
+.sideBar-Content {
+    position: fixed;
+    height: 100%;
+    width: 240px;
+    left: 0;
+    padding: 0;
+}
+
+.sideBar{
+    background-color: #4d148c;
+    z-index: 1;
+    top: 0;
+}
+
+.navBar{
+    display: none;
+}
+
+.sideBarContent{
+    padding: 10px;
+}
+
+
+.mainBodyContainer{
+    width: 100%;
+}
+
+.aPICatalogHeader{
+    display: flex;
+    padding: 10px; 
+}
+
+footer {
+    background: #fafafa;
+    padding: 15px 40px 0px 50px;
+    bottom: 0;
+    position: absolute;
+    margin-left: 240px;
+    width: 100%;
+    z-index: auto !important;
+    left: 0 !important;
+}
+
+.listStyleNoDot{
+    list-style-type: none;
+}
+
+footer ul:last-child {
+    margin-bottom: 20px;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+* {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.body-content {
+    margin-top: 58px;
+    display: flex;
+    min-height: 75vh;
+    margin-bottom: 40px;
+    margin-left: 255px;
+}
+
+.fxg-wrapper {
+    max-width: 970px;
+}
+
+.title{
+
+}
+
+.titleFont{
+    clear: both;
+    font-size: 45px;
+    color: default;
+    font-weight: 300;
+    text-align: center;
+}
+
+.titleMargins{
+    margin-bottom: 40px;
+    margin-top: 0
+}
+
+.inputGroup {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    margin: 0px;
+}
