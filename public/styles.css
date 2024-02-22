@@ -12,12 +12,24 @@
     top: 0;
 }
 
+.sidebarNav{
+    padding: 40px 30px 30px 30px;
+    width: 240px;
+    outline: 0;
+    box-shadow: none;
+}
+
 .navBar{
     display: none;
 }
 
-.sideBarContent{
-    padding: 10px;
+
+.sideBarHR{
+    margin: 0px 30px;
+    border: 0;
+    border-top: 1px solid #eee;
+    color: #fff;
+    opacity: 255;
 }
 
 
@@ -33,9 +45,8 @@
 footer {
     background: #fafafa;
     padding: 15px 40px 0px 50px;
-    bottom: 0;
-    position: absolute;
     margin-left: 240px;
+    position: absolute;
     width: 100%;
     z-index: auto !important;
     left: 0 !important;
@@ -79,8 +90,8 @@ ul, ol {
     max-width: 970px;
 }
 
-.title{
-
+.titleTextCenter{
+    text-align: center;
 }
 
 .titleFont{
@@ -88,7 +99,6 @@ ul, ol {
     font-size: 45px;
     color: default;
     font-weight: 300;
-    text-align: center;
 }
 
 .titleMargins{
@@ -101,4 +111,74 @@ ul, ol {
     display: table;
     border-collapse: separate;
     margin: 0px;
+}
+
+.catalogue-Card-Content{
+    width: 307px;
+    min-height: 260px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-right: 22px;
+    margin-bottom: 20px;
+}
+.catalogue-Card-Content:hover{
+    box-shadow: 4px 4px 0 0 lightgrey;
+}
+
+.titleToBodySeperator{
+    height: 50px;
+}
+
+.apiCardImg{
+    padding: 30px 20px 0 0;
+    height: auto;
+    min-height: 60px;
+}
+
+ul.cardOverviewDocsUL{
+    padding-left: 0;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+ul.cardOverviewDocsUL li{
+    display: inline;
+}
+
+ul.cardOverviewDocsUL li:last-child{
+    float: right;
+    margin-left: 20px;
+}
+
+section{
+    display: block;
+}
+
+.fxg-row-eq-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardOverviewDocsUL li a {
+    font-size: 14px;
+    color: #007ab7;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+h1,h2,h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sideBarContent a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: lighter;
+    min-height: 25px;
+    cursor: pointer;
 }

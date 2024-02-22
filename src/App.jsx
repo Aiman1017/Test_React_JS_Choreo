@@ -16,7 +16,7 @@ function App() {
 					<Col lg={2}>
 						<SideBar />
 					</Col>
-					<Col lg={10} >
+					<Col lg={12} >
 						<Body />
 						<Footer />
 					</Col>
