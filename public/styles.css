@@ -111,6 +111,7 @@ ul, ol {
     display: table;
     border-collapse: separate;
     margin: 0px;
+    padding-top: 40px;
 }
 
 .catalogue-Card-Content{
@@ -181,4 +182,68 @@ h1,h2,h3{
     font-weight: lighter;
     min-height: 25px;
     cursor: pointer;
+}
+
+.searchBar {
+    width: 480px;
+    height: 50px;
+}
+
+.inputGroup #search-input img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    z-index: 10;
+    top: 57px;
+    margin-left: 15px;
+}
+
+img{
+    vertical-align: middle;
+    border: 0;
+}
+
+#searchBox {
+    padding-left: 45px !important;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+
+.search-filters{
+    display: inline-flex;
+    font-size: 12px;
+    list-style: none;
+    margin: -10px 0;
+    position: relative;
+    top: -5px;
+}
+
+.search-filter-title {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.search-filters ul {
+    display: inline-flex;
+    font-size: 12px;
+    list-style: none;
+    position: relative;
+    top: -5px;
+    text-align: center;
+    padding-left: 16px;
+}
+
+.search-filters ul li {
+    height: 32px;
+    background: #f2f2f2;
+    padding: 7px 10px;
+    border-radius: 16px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    margin-right: 10px;
+    top: 10px;
+    cursor: pointer;
+    width: auto;
+    min-width: 85px;
 }
