@@ -26,7 +26,7 @@ const apiCatalogItems = [
         docsLink: "docsLink",
     },
     {
-        imgLink: "NULL",
+        imgLink: "https://developer.fedex.com/api/content/dam/fedex-com/irc/apis/authorization_gray_lg.svg",
         apiCardTitle: "Freight LTL API",
         apiCardContent:
             "Get rate estimates, process shipments and manage pickups for FedEx Freight® LTL shipments.",
@@ -34,14 +34,14 @@ const apiCatalogItems = [
         docsLink: "docsLink",
     },
     {
-        imgLink: "NULL",
+        imgLink: "https://developer.fedex.com/api/content/dam/fedex-com/irc/apis/authorization_gray_lg.svg",
         apiCardTitle: "Global Trade API",
         apiCardContent: "Get regulatory documents and advisories for your shipments.",
         overViewLink: "NULL",
         docsLink: "docsLink",
     },
     {
-        imgLink: "NULL",
+        imgLink: "https://developer.fedex.com/api/content/dam/fedex-com/irc/apis/authorization_gray_lg.svg",
         apiCardTitle: "Ground End of Day Close API",
         apiCardContent:
             "Reconcile shipping information for your FedEx Ground® shipments and print various reports.",
@@ -49,7 +49,7 @@ const apiCatalogItems = [
         docsLink: "docsLink",
     },
     {
-        imgLink: "NULL",
+        imgLink: "https://developer.fedex.com/api/content/dam/fedex-com/irc/apis/authorization_gray_lg.svg",
         apiCardTitle: "Open Ship API",
         apiCardContent:
             "Create and enter information for a shipment as it is received throughout the day.",

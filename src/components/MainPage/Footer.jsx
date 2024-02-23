@@ -1,18 +1,22 @@
-import React from "react"
-import { Col, Container } from "react-bootstrap"
+import React from "react";
+import FooterLeft from "./Footer/FooterLeft";
+import FooterRight from "./Footer/FooterRight";
+import { Container, Col, Row } from "react-bootstrap";
+import { Box } from "@mui/material";
 
 export default function Footer() {
-    return (
-        <footer>
-            <Col sm={6}>
-                <ul className="listStyleNoDot">
-                    <li>
-                        <p>Are you an existing Web Services or FedEx Ship Manager Server Customer? If so, you can still access the <a title="DRC" href="https://www.fedex.com/en-us/developer.html">Developer Resource Center</a>.</p>
-                    </li>
-                    <li>© FedEx Corporate Services Inc. All rights reserved.</li>
-                </ul>
-        </Col>
-            <Col sm={6}></Col>
-        </footer>
-    )
+	return (
+		<footer>
+			<Container>
+				<Row>
+					<Col sm={6}>
+						<FooterLeft />
+					</Col>
+					<Col sm={6}>
+						<FooterRight />
+					</Col>
+				</Row>
+			</Container>
+		</footer>
+	);
 }
