@@ -306,4 +306,12 @@ img{
     .sideBar{
         display: none;
     }
+
+    .navBar{
+        display: block;
+    }
+
+    footer{
+        margin-left: 0px;
+    }
 }
