@@ -10,6 +10,7 @@
     background-color: #4d148c;
     z-index: 1;
     top: 0;
+    display: block;
 }
 
 .sidebarNav{
@@ -164,6 +165,7 @@ ul, ol {
 }
 
 ul.cardOverviewDocsUL{
+    padding-top: 0;
     padding-left: 0;
     position: absolute;
     bottom: 0;
@@ -273,4 +275,35 @@ img{
     cursor: pointer;
     width: auto;
     min-width: 85px;
+}
+
+.overviewDocsBox{
+    min-width:150px;
+    margin-top: 20px;
+}
+
+.apiCardTextHolder{
+    display: inline-block;
+}
+
+.apiCardTextHolder .MuiTypography-p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    min-height: 130px;
+}
+
+.MuiTypography-p{
+    letter-spacing: normal;
+    margin: 0 0 10px;
+}
+
+@media (max-width: 1200px){
+    .body-content {
+        margin-left: 0px;
+    }
+
+    .sideBar{
+        display: none;
+    }
 }

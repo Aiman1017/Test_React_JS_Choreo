@@ -11,7 +11,7 @@ import { fedExTheme } from "./assets/theme";
 function App() {
 	return (
 		<ThemeProvider theme={fedExTheme}>
-			<Container className="mainBodyContainer">
+			<Container className="mainBodyContainer" fluid>
 				<Row>
 					<Col lg={2}>
 						<SideBar />

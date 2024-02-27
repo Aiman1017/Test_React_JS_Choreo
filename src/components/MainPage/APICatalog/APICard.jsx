@@ -9,17 +9,15 @@ export default function APICard(props) {
 		<Col md={4} className="fxg-row-eq-height">
             <Paper className="catalogue-Card-Content" sx={{position: "relative"}}>
 				<img src={props.imgLink} className="apiCardImg"></img>
-				<Box>
-					<Typography sx={{ color: theme.palette.text.secondary, fontSize: "25px", lineHeight:"1.2", mt: "20px", mb: "10px" }} variant="h4">
+				<Typography sx={{ color: theme.palette.text.secondary, fontSize: "25px", lineHeight:"1.2", mt: "20px", mb: "20px" }} variant="h4">
 						{props.apiCardTitle}
 					</Typography>
-				</Box>
-				<Box>
+				<Box className="apiCardTextHolder" sx={{mb: "10px"}}>
 					<Typography sx={{ color: theme.palette.text.secondary }} variant="p">
 						{props.apiCardContent}
 					</Typography>
 				</Box>
-				<Box>
+				<Box className="overviewDocsBox">
 					<ul className="cardOverviewDocsUL">
 						<li>
 							<a href={props.overViewLink}>OVERVIEW</a>

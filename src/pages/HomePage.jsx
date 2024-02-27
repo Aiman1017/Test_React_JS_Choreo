@@ -1,8 +1,9 @@
 import React from "react"
 import reactDom from "react-dom"
+import Title from "../components/MainPage/Title"
 
 export default function Home() {
     return (
-        <h1>HomePage</h1>
+        <Title titleText="Home Page" />
     )
 }

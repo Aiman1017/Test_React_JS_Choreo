@@ -1,11 +1,12 @@
 import React from "react";
 import APICard from "./APICard"
 import { apiCatalogItems } from "../../../assets/Temporary/APICatalogueTempData";
-import { Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 export default function APICatalogCardBody() {
 	return (
 		<section>
+			<Container>
 			<Row key="CardRow ">
 				{apiCatalogItems.map((items, i) => {
 					return (
@@ -19,7 +20,8 @@ export default function APICatalogCardBody() {
 						/>
 					);
 				})}
-			</Row>
+				</Row>
+			</Container>
 		</section>
 	);
 }
