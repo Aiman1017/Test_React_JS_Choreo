@@ -12,16 +12,16 @@ function App() {
 	return (
 		<ThemeProvider theme={fedExTheme}>
 			<Container className="mainBodyContainer" fluid>
-				<Row>
+				<Row >
 					<Col lg={2}>
 						<SideBar />
 					</Col>
 					<Col lg={12} >
 						<Body />
-						<Footer />
 					</Col>
 				</Row>
 			</Container>
+			<Footer />
 		</ThemeProvider>
 	);
 }
