@@ -10,6 +10,7 @@ import Guides from '../../pages/Guides'
 import Announcements from '../../pages/Announcements'
 import APICertification from '../../pages/APICertification'
 import Support from '../../pages/Support'
+import Locations from '../../pages/Locations'
 
 export default function Body() {
     return (
@@ -24,6 +25,7 @@ export default function Body() {
               <Route path='/Announcments' element={<Announcements/>} />
               <Route path='/API-Certification' element={<APICertification/>} />
               <Route path='/Support' element={<Support/>} />
+              <Route path='/Locations' element={<Locations/>} />
               <Route path="*" element={ <ErrorPage/>}/>
             </Routes>
           </BrowserRouter>

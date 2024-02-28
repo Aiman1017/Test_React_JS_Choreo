@@ -2,7 +2,6 @@ import React from "react";
 import FooterLeft from "./Footer/FooterLeft";
 import FooterRight from "./Footer/FooterRight";
 import { Container, Col, Row } from "react-bootstrap";
-import { Box } from "@mui/material";
 
 export default function Footer() {
 	return (

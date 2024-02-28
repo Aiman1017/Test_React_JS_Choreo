@@ -301,6 +301,91 @@ img{
     margin: 0 0 10px;
 }
 
+.dropdown{
+    position: relative;
+}
+
+.country-dropdown{
+    float: right;
+}
+
+.country-val{
+    font-weight: 300;
+    color: #58595b;
+    margin-right: 20px;
+    position: relative;
+}
+
+.open>.dropdown-menu {
+    display: block;
+}
+
+.dropdown.fxg-bootstrap-dropdown {
+    float: none;
+    background-color: #fafafa;
+    font-size: 12px;
+}
+
+footer .dropdown.fxg-bootstrap-dropdown .dropdown-menu {
+    margin: 0;
+}
+
+.dropdown.fxg-bootstrap-dropdown .dropdown-menu {
+    width: 100.3%;
+    margin: 1px 0 0 -1px;
+    border-radius: 0;
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+    border-top: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+footer .footer-country-locale ul.dropdown-menu {
+    border-top: 0 !important;
+    border: 1px solid #bfbfbf !important;
+    position: absolute;
+    bottom: 42px;
+    z-index: 1;
+    top: auto;
+}
+
+footer .footer-country-locale ul li {
+    width: 160px !important;
+    border-right: 1px solid rgba(89, 89, 91, 0.5) !important;
+    border-left: 1px solid rgba(89, 89, 91, 0.5) !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+}
+
+.dropdown.fxg-bootstrap-dropdown .dropdown-toggle {
+    position: relative;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid #fafafa;
+    width: 100%;
+    text-align: left;
+    padding: 18px 15px 17px;
+}
+
+footer .footer-country-locale button {
+    width: 160px !important;
+    padding: 12px 8px !important;
+    border: 1px solid #bfbfbf !important;
+    font-weight: 300;
+    font-size: 14px !important;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    outline: 0;
+}
+
 @media (max-width: 1200px){
     .body-content {
         margin-left: 0px;
